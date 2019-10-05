@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{059FCE35-6673-4805-BB84-0B875F9B4AEC}</ProjectGuid>
+    <ProjectGuid>{9A6B1203-9D2F-47C7-B544-B9F522ED623A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lab05</RootNamespace>
-    <AssemblyName>lab05</AssemblyName>
+    <RootNamespace>lab5</RootNamespace>
+    <AssemblyName>lab5</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
