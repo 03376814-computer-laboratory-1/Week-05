@@ -39,7 +39,7 @@ public class GotoTest
 
 ➢ รันโปรแกรมและบันทึกผล
 
- ![](images/5.1.PNG)
+![](images/5.1.PNG)
 
 👷 การทดลอง ให้นักศึกษา แก้ไขดัดแปลงโปรแกรม โดยใช้คำสั่ง `goto` และให้มีเอาต์พุตดังนี้
 
@@ -48,7 +48,30 @@ Line 4
 Line 5
 Line 2
 Line 9
-
+```csharp
+using System;
+public class GotoTest
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Line 1");
+        goto line4;
+        line2:
+        Console.WriteLine("Line 2");
+        goto line9;
+        Console.WriteLine("Line 3");
+        line4:
+        Console.WriteLine("Line 4");
+        Console.WriteLine("Line 5");
+        goto line2;
+        Console.WriteLine("Line 6");
+        Console.WriteLine("Line 7");
+        Console.WriteLine("Line 8");
+        line9:
+        Console.WriteLine("Line 9");
+    }
+}
+```
 การใช้คำสั่ง `goto` ร่วมกับคำสั่ง switch-case
 
 ```csharp
@@ -95,7 +118,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
- ![](images/5.2.PNG)
+![](images/5.2.PNG)
 
 การใช้คำสั่ง `goto` ร่วมกับคำสั่ง loop ที่ซับซ้อน
 
@@ -155,7 +178,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
- ![](images/5.3.PNG)
+![](images/5.3.PNG)
 
 ### 1.1.2. try…catch…finally
 
@@ -633,7 +656,55 @@ public class switchLearning
 Input day name : sun
 sun is Sunday, color Red
 ```
-
+``` csharp
+using System;
+using System.IO;
+public class switchLearning
+{
+    public static void Main()
+    {
+        string day = null;
+        string color = null;
+        Console.Write("Input day name : ");
+        string name = Console.ReadLine();
+        switch (name.ToLower())
+        {
+            case "sun":
+                day = "Sunday";
+                color = "Red";
+            break;
+            case "mon":
+                day = "Monday"
+                color = "Yellow"
+            break;
+            case "tue":
+                day = "Tuesday"
+                color = "Pink"
+            break;
+            case "wed":
+                day = "Wednesday";
+                color = "Green";
+            break;
+            case "thu":
+                day = "Thursday";
+                color = "Orange";
+            break;
+            case "fri":
+                day = "Friday";
+                color = "Blue";
+            break;
+            case "sat":
+                day = "Saturday";
+                color = "Purple";
+            break;
+            default:
+                day = color = "invalid";
+            break;
+        }
+        Console.WriteLine($"{name} is {day}, color {color}");
+    }
+}
+```
 ตารางกำหนดชื่อและสีประจำวัน
 
 Input ที่รับได้ |ชื่อวัน | สี
