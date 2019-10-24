@@ -101,6 +101,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/2.PNG">
+
 ``` text
 
 
@@ -165,6 +167,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/3.PNG">
+
 ``` text
 
 
@@ -191,6 +195,8 @@ public class TryCatch
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/4.PNG">
 
 ``` text
 
@@ -224,6 +230,8 @@ public class TryCatch
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/5.PNG">
 
 ``` text
 
@@ -259,6 +267,8 @@ public class TryCatch
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/6.PNG">
 
 ``` text
 
