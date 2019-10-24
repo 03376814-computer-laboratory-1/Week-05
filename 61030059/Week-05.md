@@ -299,6 +299,8 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/7.PNG">
+
 ``` text
 
 
@@ -322,6 +324,8 @@ public class TryCatch
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/8.PNG">
 
 ``` text
 
@@ -348,6 +352,8 @@ public class TryCatch
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/9.PNG">
 
 ``` text
 
@@ -381,6 +387,8 @@ public class ExceptionLearning
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/10.PNG">
 
 ``` text
 
@@ -436,6 +444,23 @@ public class ExceptionLearning
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+1. DivideByZeroException
+
+<img src="LAP5-RU/11.PNG">
+
+2. NullReferenceException
+
+<img src="LAP5-RU/12.PNG">
+
+3. FileNotFoundException
+
+<img src="LAP5-RU/13.PNG">
+
+4. FormatException
+
+<img src="LAP5-RU/14.PNG">
+
 
 ``` text
 
@@ -499,6 +524,8 @@ public class IfLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/15.PNG">
+
 ``` text
 
 
@@ -548,6 +575,8 @@ public class IfLearning
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/16.PNG">
 
 ``` text
 
@@ -599,6 +628,8 @@ public class IfLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/17.PNG">
+
 ``` text
 
 
@@ -638,6 +669,8 @@ public class IfLearning
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/18.PNG">
 
 ``` text
 
@@ -703,6 +736,8 @@ public class switchLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/19.PNG">
+
 ``` text
 
 
@@ -759,6 +794,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/20.PNG">
+
 ``` text
 
 
@@ -791,6 +828,8 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/21.PNG">
 
 ``` text
 
@@ -836,6 +875,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/22.PNG">
+
 ``` text
 
 
@@ -879,6 +920,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/23.PNG">
+
 ``` text
 
 
@@ -906,6 +949,8 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/24.PNG">
 
 ``` text
 
@@ -938,6 +983,8 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/25.PNG">
 
 ``` text
 
@@ -980,6 +1027,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/26.PNG">
+
 ``` text
 
 
@@ -1014,6 +1063,8 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/27.PNG">
 
 ``` text
 
@@ -1061,6 +1112,8 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
+<img src="LAP5-RU/27.PNG">
+
 ``` text
 
 
@@ -1102,6 +1155,8 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/28.PNG">
 
 ``` text
 
@@ -1163,6 +1218,8 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+
+<img src="LAP5-RU/29.PNG">
 
 ``` text
 
