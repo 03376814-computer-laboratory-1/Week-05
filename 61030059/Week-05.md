@@ -38,6 +38,7 @@ public class GotoTest
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
+<img src="./images/fig 1-2.png">
 
 ``` text
 
