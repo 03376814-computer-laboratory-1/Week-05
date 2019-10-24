@@ -38,7 +38,8 @@ public class GotoTest
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
-<img src="./LAP5-RU/ 1.PNG">
+
+<img src="/LAP5-RU/ 1.PNG">
 
 ``` text
 
