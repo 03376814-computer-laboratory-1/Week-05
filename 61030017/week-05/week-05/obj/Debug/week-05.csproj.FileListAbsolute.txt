@@ -1,7 +1,0 @@
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\bin\Debug\week-05.exe.config
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\bin\Debug\week-05.exe
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\bin\Debug\week-05.pdb
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\obj\Debug\week-05.csprojAssemblyReference.cache
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\obj\Debug\week-05.csproj.CoreCompileInputs.cache
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\obj\Debug\week-05.exe
-D:\OneDrive - KMITL\Desktop\week-05\Week-05-master\61030017\week-05\week-05\obj\Debug\week-05.pdb
