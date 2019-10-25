@@ -11,15 +11,17 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 12; i++)
+            for (int i = 1; i <= 100; i++)
             {
-                for (int j = 1; j <= 12; j++)
+                if (i == 5)
                 {
-                    Console.Write("{0, 4}", i * j);
+                    break;
                 }
-                Console.WriteLine();
+                Console.WriteLine(i);
             }
-
+            // Keep the console open in debug mode.
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 
