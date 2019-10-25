@@ -17,8 +17,8 @@ namespace lab5
                 {
                     break;
                 }
-                Console.WriteLine(i);
             }
+            Console.WriteLine(i);
             // Keep the console open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
