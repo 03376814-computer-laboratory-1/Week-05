@@ -10,10 +10,11 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            int b = 10;
-            b /= a;
+            int a = int.MaxValue;
+            a *= 2;
             Console.WriteLine(a);
+
+
         }
     }
 }
