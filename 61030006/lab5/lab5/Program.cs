@@ -11,16 +11,19 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            int a = 2;
-            if (a == 2)
+            int a = 10;
+            int b = 20;
+            if (a == 10)
             {
-                Console.WriteLine("execute this line");
+                if (b == 20)
+                {
+                    Console.WriteLine("a = 10 and b = 20");
+                }
+                if (b != 20)
+                {
+                    Console.WriteLine("a = 10 and b != 20");
+                }
             }
-            else
-            {
-                Console.WriteLine("execute another line too");
-            }
-            Console.WriteLine("this line is always execute");
         }
     }
 
