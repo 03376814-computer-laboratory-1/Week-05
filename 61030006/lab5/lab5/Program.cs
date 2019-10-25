@@ -10,19 +10,9 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            int a = 0;
-            try
-            {
-                Console.WriteLine(100 / a);
-            }
-            catch (NullReferenceException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            int a = int.MaxValue;
+            a *= 2;
+            Console.WriteLine(a);
         }
     }
 }
