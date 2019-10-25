@@ -2,28 +2,14 @@
 
 namespace ConsoleApp2
 {
-    class DoTest
+    class Multiply
     {
         static void Main()
         {
-            Console.WriteLine("---- Begin of While statement.");
-            int n = 1;
-            while (n < 1)
+            for (int i = 1; i <= 12; i++)
             {
-                Console.WriteLine(" Current value of n is {0}", n);
-                n++;
+                Console.WriteLine("{0, 2} x 2 = {1, 2}", i, i * 2);
             }
-            Console.WriteLine("---- End of While statement.");
-
-            Console.WriteLine("---- Begin of Do..While statement.");
-            n = 1;
-            do
-            {
-                Console.WriteLine(" Current value of n is {0}", n);
-                n++;
-            }
-            while (n < 1);
-            Console.WriteLine("---- End of Do..While statement.");
             Console.ReadKey();
         }
     }
