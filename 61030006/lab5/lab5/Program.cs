@@ -11,12 +11,10 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            int n = 1;
-            while (n < 6)
-            {
-                Console.WriteLine("Current value of n is {0}", n);
-                n++;
-            }
+            int a = 0;
+            do a = 2;
+            while (false);
+            Console.WriteLine(a);
 
         }
     }
