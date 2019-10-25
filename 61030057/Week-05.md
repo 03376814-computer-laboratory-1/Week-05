@@ -36,10 +36,10 @@ public class GotoTest
     }
 }
 ```
-
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/51.PNG)
+``` 
 
 
 
@@ -98,8 +98,7 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
-
-``` text
+![](Photo/52.PNG)
 
 
 
@@ -163,7 +162,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/53.PNG)
 
 
 
@@ -190,7 +189,7 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/54.PNG)
 
 
 
@@ -223,7 +222,7 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/55.PNG)
 
 
 
@@ -258,7 +257,7 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/56.PNG)
 
 
 
@@ -287,9 +286,9 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+``` text 
 
-
+-2
 
 ```
 
@@ -311,7 +310,7 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/57.PNG)
 
 
 
@@ -337,7 +336,7 @@ public class TryCatch
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/58.PNG)
 
 
 
@@ -370,7 +369,7 @@ public class ExceptionLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/59.PNG)
 
 
 
@@ -425,8 +424,48 @@ public class ExceptionLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
-
+``` text 
+using System;
+using System.IO;
+public class ExceptionLearning
+{
+    public static void Main()
+    {
+        int a = 10;
+        int b = 20;
+        int c;
+        try
+        {
+            c = div(a, b);
+        }
+        catch (DivideByZeroException e)            {
+            Console.WriteLine("DivideByZeroException");
+            Console.WriteLine(e.Message);
+        }
+        catch (NullReferenceException e)
+        {
+        Console.WriteLine("NullReferenceException");
+        Console.WriteLine(e.Message);
+        }
+        catch (FileNotFoundException e)
+        {
+        Console.WriteLine("FileNotFoundException");
+        Console.WriteLine(e.Message);
+        }
+        catch (FormatException e)
+        {
+        Console.WriteLine("FormatException");
+        Console.WriteLine(e.Message);
+        }
+    }
+    private static int div(int a, int b)
+    {
+        throw new DivideByZeroException();
+        //throw new NullReferenceException();
+        //throw new FileNotFoundException();
+        //throw new FormatException();
+        }
+}
 
 
 ```
@@ -487,7 +526,7 @@ public class IfLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/510.PNG)
 
 
 
@@ -537,7 +576,7 @@ public class IfLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/511.PNG)
 
 
 
@@ -587,7 +626,7 @@ public class IfLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/512.PNG)
 
 
 
@@ -627,7 +666,7 @@ public class IfLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/513.PNG)
 
 
 
@@ -691,7 +730,7 @@ public class switchLearning
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/514.PNG)
 
 
 
@@ -747,7 +786,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/515.PNG)
 
 
 
@@ -780,7 +819,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/516.PNG)
 
 
 
@@ -824,7 +863,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/517.PNG)
 
 
 
@@ -867,7 +906,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/518.PNG)
 
 
 
@@ -894,8 +933,7 @@ namespace ConsoleApp2
 ```
 
 ➢ รันโปรแกรมและบันทึกผล
-
-``` text
+![](Photo/519.PNG)
 
 
 
@@ -927,7 +965,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/520.PNG)
 
 
 
@@ -968,8 +1006,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
-
+![](Photo/521.PNG)
 
 
 ```
@@ -1005,7 +1042,8 @@ namespace ConsoleApp2
 
 ``` text
 
-
+Error
+เนื่องจาก Console.Write() ไม่ได้อยู่ภายในลูป
 
 ```
 
@@ -1049,7 +1087,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/522.PNG)
 
 
 
@@ -1091,7 +1129,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
+![](Photo/523.PNG)
 
 
 
@@ -1152,8 +1190,7 @@ namespace ConsoleApp2
 
 ➢ รันโปรแกรมและบันทึกผล
 
-``` text
-
+![](Photo/524.PNG)
 
 
 ```
