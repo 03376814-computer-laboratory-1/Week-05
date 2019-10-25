@@ -41,7 +41,7 @@ public class GotoTest
 
 ``` text
 
-
+![](images/P1.PNG)
 
 ```
 
