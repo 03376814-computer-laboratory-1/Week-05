@@ -11,17 +11,34 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            int a = 2;
-            if (a == 2)
+            int a = 10;
+            int b = 20;
+            int c;
+            try
             {
-                Console.WriteLine("execute this line");
+                c = div(a, b);
             }
-            if (a < 2)
+            catch (DivideByZeroException e)
             {
-                Console.WriteLine("execute this line too");
+                Console.WriteLine("DivideByZeroException");
+                Console.WriteLine(e.Message);
             }
-            Console.WriteLine("execute next line");
+            catch (NullReferenceException e)
+            {
+                Console.WriteLine("NullReferenceException");
+                Console.WriteLine(e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception");
+                Console.WriteLine(e.Message);
+            }
         }
+        private static int div(int a, int b)
+        {
+            throw new < ชื่อเมธอดในข้อ 1 - 4 ครั้งละข้อ > ();
+        }
+    }
 
 
 
