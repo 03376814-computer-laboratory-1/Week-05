@@ -1,17 +1,30 @@
 ﻿using System;
+
 namespace ConsoleApp2
 {
-    class WhileTest
+    class DoTest
     {
         static void Main()
         {
+            Console.WriteLine("---- Begin of While statement.");
             int n = 1;
-            while (n < 6)
+            while (n < 1)
             {
-                Console.WriteLine("Current value of n is {0}", n);
+                Console.WriteLine(" Current value of n is {0}", n);
                 n++;
             }
-            Console.ReadLine();
+            Console.WriteLine("---- End of While statement.");
+
+            Console.WriteLine("---- Begin of Do..While statement.");
+            n = 1;
+            do
+            {
+                Console.WriteLine(" Current value of n is {0}", n);
+                n++;
+            }
+            while (n < 1);
+            Console.WriteLine("---- End of Do..While statement.");
+            Console.ReadKey();
         }
     }
 }
