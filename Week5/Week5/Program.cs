@@ -1,12 +1,17 @@
 ﻿using System;
-public class TryCatch
+using System.IO;
+public class ExceptionLearning
 {
-    static void Main(string[] args)
+    public static void Main()
     {
-        int a = 0;
-        int b = 10;
-        b /= a;
-        Console.WriteLine(a);
+        int a = 10;
+        int b = 20;
+        int c = add(a, b);
+    }
+    private static int add(int a, int b)
+    {
+         throw new NotImplementedException();
         Console.ReadKey();
+
     }
 }
