@@ -1,34 +1,17 @@
 ﻿using System;
-using System.IO;
-public class switchLearning
+namespace ConsoleApp2
 {
-    public static void Main()
+    class WhileTest
     {
-        Console.Write("Input your grade (A, B, C, D or F) : ");
-        string gradeString = Console.ReadLine();
-        string message;
-        switch (gradeString.ToUpper())
+        static void Main()
         {
-            case "A":
-                message = "Excellent";
-                break;
-            case "B":
-                message = "Good";
-                break;
-            case "C":
-                message = "Cool";
-                break;
-            case "D":
-                message = "Try";
-                break;
-            case "F":
-                message = "Get out!!";
-                break;
-            default:
-                message = "Incorrect grade";
-                break;
+            int n = 1;
+            while (n < 6)
+            {
+                Console.WriteLine("Current value of n is {0}", n);
+                n++;
+            }
+            Console.ReadLine();
         }
-        Console.WriteLine(message);
-        Console.ReadKey();
     }
 }
