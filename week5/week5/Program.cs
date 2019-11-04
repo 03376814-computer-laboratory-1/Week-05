@@ -7,18 +7,21 @@ namespace week5
     {
         public static void Main()
         {
-            int a = 2;
-            if (a == 2)
+            int a = 10;
+            int b = 20;
+            if (a == 10)
             {
-                Console.WriteLine("execute this line");
-            }
-            else
-            {
-                Console.WriteLine("execute another line too");
-            }
-            Console.WriteLine("this line is always execute");
+                if (b == 20)
+                {
+                    Console.WriteLine("a = 10 and b = 20");
+                }
+                if (b != 20)
+                {
+                    Console.WriteLine("a = 10 and b != 20");
+                }
 
+            }
         }
     }
-    }
+}
 
