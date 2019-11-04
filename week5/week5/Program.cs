@@ -10,20 +10,43 @@ namespace week5
 
             for (int i = 1; i <= 10; i++)
             {
-                if (i < 9)
+                string[] monthName = new string[] { "January","February",
+            "March","April","May","June","July","August",
+            "September","October","November","December"};
+
+                Console.WriteLine("-------- foreach,in loop");
+                foreach (string month in monthName)
                 {
-                    continue;
+                    System.Console.WriteLine(month);
                 }
-                Console.WriteLine(i);
+                System.Console.WriteLine();
+
+               
+                Console.WriteLine("-------- for loop");
+                for (int k = 0; k < monthName.Length; k++)
+                {
+                    System.Console.WriteLine(monthName[i]);
+                }
+                System.Console.WriteLine();
+
+
+                
+                int count = 0;
+                foreach (string month in monthName)
+                {
+                    count += 1;
+                    System.Console.WriteLine("Element #{0}: {1}", count, month);
+                }
+                System.Console.WriteLine("Number of elements in the array: {0}", count);
+
+                
+                Console.WriteLine("Press any key to exit.");
+                Console.ReadKey();
+
             }
-            // Keep the console open in debug mode.
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
-
-
         }
     }
-    }
+}
 
     
 
