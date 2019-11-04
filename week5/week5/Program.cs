@@ -32,7 +32,7 @@ namespace week5
         }
         private static int div(int a, int b)
         {
-            throw new DivideByZeroException();
+            throw new NullReferenceException();
 
 
         }
